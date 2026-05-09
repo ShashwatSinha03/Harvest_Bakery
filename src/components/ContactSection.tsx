@@ -68,7 +68,7 @@ export default function ContactSection() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
-            className="bg-roast p-12 md:p-16 rounded-[3rem] text-cream"
+            className="bg-roast p-8 md:p-16 rounded-[3rem] text-cream"
           >
             <h3 className="text-3xl font-serif mb-12">Send an Inquiry</h3>
             <form className="space-y-8">

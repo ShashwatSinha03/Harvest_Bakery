@@ -43,7 +43,7 @@ export default function HeroSection() {
           <span className="inline-block text-sm font-sans tracking-[0.3em] uppercase mb-8 text-cream/80">
             Est. 1923 — Handcrafted with Love
           </span>
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-serif leading-[1.1] mb-12">
+          <h1 className="text-5xl md:text-8xl lg:text-9xl font-serif leading-[1.1] mb-12 px-4 md:px-0">
             Slow mornings.<br />
             Fresh bread.<br />
             Honest coffee.

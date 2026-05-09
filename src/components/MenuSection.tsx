@@ -52,7 +52,7 @@ export default function MenuSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="text-5xl md:text-7xl font-serif text-roast"
+              className="text-4xl md:text-7xl font-serif text-roast"
             >
               Baked with Intention.
             </motion.h2>
@@ -68,7 +68,7 @@ export default function MenuSection() {
           </motion.p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 auto-rows-[300px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:auto-rows-[300px]">
           {menuItems.map((item, index) => (
             <motion.div
               key={item.title}
@@ -77,7 +77,7 @@ export default function MenuSection() {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
               className={cn(
-                "group relative overflow-hidden rounded-[2rem] bg-beige/30",
+                "group relative overflow-hidden rounded-[2rem] bg-beige/30 min-h-[400px] md:min-h-0",
                 item.className
               )}
             >

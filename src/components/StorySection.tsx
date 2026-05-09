@@ -7,7 +7,7 @@ export default function StorySection() {
     <section id="story" className="py-0 overflow-hidden">
       <div className="flex flex-col md:flex-row min-h-screen">
         {/* Story Text */}
-        <div className="w-full md:w-1/2 bg-cream flex items-center justify-center p-12 md:p-24">
+        <div className="w-full md:w-1/2 bg-cream flex items-center justify-center p-8 md:p-24">
           <div className="max-w-xl">
             <motion.span 
               initial={{ opacity: 0, x: -20 }}

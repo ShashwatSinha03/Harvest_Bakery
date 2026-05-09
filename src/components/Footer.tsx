@@ -14,7 +14,7 @@ export default function Footer() {
           viewport={{ once: true }}
           className="mb-24"
         >
-          <h2 className="text-[12vw] md:text-[15vw] font-serif text-roast/5 leading-none tracking-tighter select-none mb-[-2vw]">
+          <h2 className="text-[18vw] md:text-[15vw] font-serif text-roast/5 leading-none tracking-tighter select-none mb-[-2vw]">
             Harvest
           </h2>
           <p className="text-gold text-sm tracking-[0.4em] uppercase">

@@ -32,12 +32,12 @@ export default function StoreSection() {
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           {/* Experience Image Grid */}
-          <div className="grid grid-cols-2 gap-4 h-[600px]">
+          <div className="grid grid-cols-2 gap-4 h-auto md:h-[600px]">
             <motion.div 
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="col-span-2 h-[350px] overflow-hidden rounded-[2rem]"
+              className="col-span-2 h-[250px] md:h-[350px] overflow-hidden rounded-[2rem]"
             >
               <img 
                 src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2000&auto=format&fit=crop" 
@@ -50,7 +50,7 @@ export default function StoreSection() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="h-[234px] overflow-hidden rounded-[2rem]"
+              className="h-[150px] md:h-[234px] overflow-hidden rounded-[2rem]"
             >
               <img 
                 src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2000&auto=format&fit=crop" 
@@ -63,7 +63,7 @@ export default function StoreSection() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.4 }}
-              className="h-[234px] overflow-hidden rounded-[2rem]"
+              className="h-[150px] md:h-[234px] overflow-hidden rounded-[2rem]"
             >
               <img 
                 src="https://images.unsplash.com/photo-1517433367423-c7e5b0f35086?q=80&w=2000&auto=format&fit=crop" 

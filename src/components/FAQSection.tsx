@@ -32,7 +32,7 @@ function AccordionItem({ question, answer, isOpen, onClick }: any) {
     <div className="border-b border-roast/10 last:border-0">
       <button
         onClick={onClick}
-        className="w-full py-8 flex justify-between items-center text-left group"
+        className="w-full py-6 md:py-8 flex justify-between items-center text-left group"
       >
         <span className="text-xl md:text-2xl font-serif text-roast group-hover:text-gold transition-colors duration-300">
           {question}
