@@ -60,5 +60,5 @@ Live Demo: [harvest-bakery.vercel.app](https://harvest-bakery.vercel.app/)
 
 ---
 
-*Baked daily with intention. Established 1923.*
+*Baked daily with intention.*
 # Harvest_Bakery
