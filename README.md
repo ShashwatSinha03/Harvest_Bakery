@@ -1,37 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Harvest Bakery 🥖
+### Slow mornings. Fresh bread. Honest coffee.
 
-## Getting Started
+Harvest Bakery is a premium, one-page editorial website built to showcase an artisanal café experience. Designed with a focus on "Slow Living," the site blends cinematic typography, organic textures, and smooth motion to create a warm, immersive brand presentation.
 
-First, run the development server:
+![Harvest Bakery Hero](https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=2070&auto=format&fit=crop)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ The Experience
+- **Editorial Design**: Magazine-inspired asymmetrical layouts and large-scale serif typography.
+- **Atmospheric Textures**: Subtle grain overlays and soft vignettes that mimic the feel of artisanal paper and natural morning light.
+- **Kinetic Storytelling**: Smooth, inertia-based scrolling and parallax effects that bring the bakery's history to life.
+- **Mobile-First Luxury**: A fully responsive experience that maintains its premium feel across all devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
+- **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/)
+- **Scrolling**: [Lenis](https://lenis.darkroom.engineering/)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Brand Identity
+The website adheres to a strict "Quiet Luxury" palette:
+- **Primary Background**: `#F5EFE6` (Warm Cream)
+- **Primary Text**: `#3B2A22` (Deep Roast Brown)
+- **Secondary Neutral**: `#D8C3A5` (Soft Beige)
+- **Accent**: `#A67C52` (Muted Coffee Gold)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Typography**:
+- **Headings**: *Playfair Display* (Serif)
+- **Body**: *Inter* (Sans-serif)
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ShashwatSinha03/Harvest_Bakery.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Harvest_Bakery
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-## Deploy on Vercel
+## 🌐 Deployment
+This project is optimized for deployment on **Vercel**. 
+Live Demo: [harvest-bakery.vercel.app](https://harvest-bakery.vercel.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Baked daily with intention. Established 1923.*
 # Harvest_Bakery
